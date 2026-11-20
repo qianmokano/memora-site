@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<title>Memora 隐私政策</title>
+<meta name="description" content="Memora 考研复习 App 的隐私政策：开发者不收集你的数据。">
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="alternate" hreflang="en" href="/en/privacy/">
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="/icon.svg" alt="">
+    <div class="titles">
+      <h1>Memora 隐私政策</h1>
+      <p class="caption">2026 年 11 月 20 日生效</p>
+    </div>
+    <a class="lang" href="/en/privacy/" hreflang="en" lang="en">English</a>
+  </header>
+
+  <section>
+    <h2>概述</h2>
+    <p>Memora 是一个考研复习 App。<strong>开发者不收集、不上传，也看不到你的任何数据。</strong>Memora 没有账号，没有广告，也没有分析或跟踪工具。</p>
+    <p>你的数据只会去三个地方：你的设备、你选择的 AI 服务商、你自己打开的同步（iCloud 或 WebDAV）。下面逐项说明。</p>
+  </section>
+
+  <section>
+    <h2>保存在设备上的数据</h2>
+    <p>对话、错题、题目图片、复习记录、学习计划、学习档案、AI 记住的学习情况和专注记录，都保存在你的设备上。</p>
+  </section>
+
+  <section>
+    <h2>发送给 AI 服务商的内容</h2>
+    <p>Memora 不自带 AI。你在「设置 → AI 服务」里连接自己的服务商账号，比如 DeepSeek、通义千问、智谱、Kimi、OpenAI、Claude、Gemini，或你填写的其他地址。</p>
+    <p>提问、拍题、整理错题、批改、生成练习、复习推荐和学习报告时，App 会把完成这件事需要的内容直接发给这个服务商：</p>
+    <ul>
+      <li>题目文字和图片，以及当前对话；</li>
+      <li>和回答有关的错题、学习档案（如科目、考试日期）和 AI 记住的学习情况。</li>
+    </ul>
+    <p>这些请求用你自己的 API Key，从你的设备直接发出，不经过开发者的服务器。服务商如何处理这些内容，以它自己的隐私政策为准。没有连接 AI 服务时，不会发送任何内容。</p>
+  </section>
+
+  <section>
+    <h2>API Key</h2>
+    <p>API Key 保存在设备的钥匙串里。打开 iCloud 同步时，它通过 iCloud 钥匙串在你的设备之间同步。</p>
+    <p>导出的备份文件和 WebDAV 同步里也包含 API Key，这两者都没有加密，请自己保管好。</p>
+  </section>
+
+  <section>
+    <h2>同步</h2>
+    <p>同步默认关闭，在「设置 → 同步」里打开。</p>
+    <ul>
+      <li><strong>iCloud</strong>：数据存在你自己的 iCloud 私有空间，只有登录同一个 Apple 账户的设备能读取。</li>
+      <li><strong>WebDAV</strong>：数据存在你填写的服务器上，比如坚果云或你自己的 NAS。</li>
+    </ul>
+    <p>开发者都无法访问这些数据。</p>
+  </section>
+
+  <section>
+    <h2>备份</h2>
+    <p>备份文件由你在「设置 → 备份」里导出，存放在你选择的位置，由你自己保管。备份文件没有加密。</p>
+  </section>
+
+  <section>
+    <h2>权限</h2>
+    <ul>
+      <li><strong>相机</strong>：拍摄题目。</li>
+      <li><strong>照片</strong>：通过系统的照片选择器，App 只能读到你选中的那几张。</li>
+      <li><strong>通知</strong>：复习提醒和专注提醒，由设备本地生成。</li>
+      <li><strong>屏幕使用时间</strong>：用于强制专注，在专注期间屏蔽你选的 App。你选了哪些 App 由系统保管，Memora 只拿到无法识别的标识，看不到具体是哪些 App。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>日志和崩溃报告</h2>
+    <p>App 会在设备上记录运行事件和崩溃报告，用来排查问题。日志只记发生了什么和数量，不记题目、对话和 API Key，保留最近 7 天。</p>
+    <p>它们不会自动上传。只有你在「设置 → 开发者 → 日志」里手动导出并发送给开发者时，才会离开设备。如果你在系统设置里打开了「与 App 开发者共享」，Apple 会按它的政策把崩溃数据转交给开发者。</p>
+  </section>
+
+  <section>
+    <h2>删除数据</h2>
+    <ul>
+      <li>删除 App，会删掉设备上的全部数据。</li>
+      <li>iCloud 里的数据，在「系统设置 → Apple 账户 → iCloud → 管理储存空间」里删除。</li>
+      <li>WebDAV 里的数据，在你的服务器上删除。</li>
+      <li>发给 AI 服务商的内容，按该服务商的方式处理。</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>未成年人</h2>
+    <p>Memora 面向备考研究生考试的用户，不面向 13 岁以下的儿童，也不会有意收集任何人的个人信息。</p>
+  </section>
+
+  <section>
+    <h2>政策变更</h2>
+    <p>App 处理数据的方式有变化时，会更新这份政策和顶部的生效日期。</p>
+  </section>
+
+  <section class="contact">
+    <div>
+      <h2>联系我们</h2>
+      <p>对隐私有任何问题，请发邮件给 qianmokano@gmail.com。</p>
+    </div>
+    <a class="button" href="mailto:qianmokano@gmail.com">发邮件</a>
+  </section>
+
+  <footer>Memora</footer>
+</main>
+</body>
+</html>

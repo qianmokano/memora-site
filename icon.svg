@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024">
+  <!-- Drawn from memora/Icon/AppIconArt.swift: same outline, spots and eyes on the 1024 canvas. -->
+  <defs>
+    <clipPath id="square"><rect width="1024" height="1024" rx="229.07"/></clipPath>
+    <clipPath id="ghost"><path transform="matrix(1.1872 0 0 1.1872 -95.8464 -130.152)" d="M270 760L270 520C270 350 380 248 512 248C644 248 754 350 754 520L754 760C754 812 700 830 668 800L560 716C536 698 488 698 464 716L356 800C324 830 270 812 270 760Z"/></clipPath>
+    <radialGradient id="s1" cx="331.5" cy="712.8" r="356.2" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#c2adff"/><stop offset=".45" stop-color="#c2adff" stop-opacity=".82"/><stop offset="1" stop-color="#c2adff" stop-opacity="0"/></radialGradient>
+    <radialGradient id="s2" cx="723.3" cy="321" r="320.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffd9a8"/><stop offset=".45" stop-color="#ffd9a8" stop-opacity=".82"/><stop offset="1" stop-color="#ffd9a8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="s3" cx="723.3" cy="700.9" r="320.5" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#8ce6f2"/><stop offset=".45" stop-color="#8ce6f2" stop-opacity=".82"/><stop offset="1" stop-color="#8ce6f2" stop-opacity="0"/></radialGradient>
+    <radialGradient id="s4" cx="438.4" cy="344.7" r="284.9" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffb8c7"/><stop offset=".45" stop-color="#ffb8c7" stop-opacity=".82"/><stop offset="1" stop-color="#ffb8c7" stop-opacity="0"/></radialGradient>
+  </defs>
+  <g clip-path="url(#square)">
+    <rect width="1024" height="1024" fill="#fff"/>
+    <g clip-path="url(#ghost)">
+      <rect width="1024" height="1024" fill="#ece9f5"/>
+      <rect width="1024" height="1024" fill="url(#s1)"/>
+      <rect width="1024" height="1024" fill="url(#s2)"/>
+      <rect width="1024" height="1024" fill="url(#s3)"/>
+      <rect width="1024" height="1024" fill="url(#s4)"/>
+    </g>
+    <ellipse cx="452.64" cy="437.33" rx="37.99" ry="54.61" fill="#0b0b0b"/>
+    <ellipse cx="609.35" cy="437.33" rx="37.99" ry="54.61" fill="#0b0b0b"/>
+  </g>
+</svg>
