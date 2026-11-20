@@ -1,6 +1,6 @@
 # memora-site
 
-Memora 的静态网站，现在只有隐私政策，部署在 Cloudflare Pages（连接这个 GitHub 仓库，每次 push 到 main 自动更新）。
+Memora 的静态网站，现在只有隐私政策，部署在 Cloudflare Pages（连接这个 GitHub 仓库，每次 push 到 main 自动更新），网址 https://memora.thekanojyo.com/privacy/ 。
 
 | 路径 | 内容 |
 |---|---|
